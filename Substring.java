@@ -1,8 +1,16 @@
 
 public class Substring
 {
-	public void sentence(String s)
+
+	public static void main(String[] args)
 	{
-		System.out.println(s.length());
+		String n = "Elinor is great";
+		
+		for(int a = 0; a<n.length(); a++)
+		{
+			System.out.println( n.substring(a, a+1));
+		}
+
 	}
+
 }

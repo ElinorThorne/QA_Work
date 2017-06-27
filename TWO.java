@@ -1,9 +1,14 @@
 
 public class TWO extends ONE
 {
-	public void message2()
+	public TWO()
 	{
-		System.out.print("Is it me you are looking for?");
+		super(2);
+		System.out.println("A");
 	}
-	
+	/*public TWO(int A)
+	{
+		System.out.println("B");
+	}*/
+
 }

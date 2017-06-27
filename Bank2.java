@@ -1,7 +1,9 @@
-
-public class Bank
+public class Bank2
 {
-	//Static Members
+	/*TASK: Try to use Static Members with
+	 * non-static members 
+	 */
+	
 	static int dollar;
 	int x;
 	
@@ -17,4 +19,8 @@ public class Bank
 	{
 		System.out.println("Dollar rate: " + dollar );
 	}
+	/*public static void wontWork(int a)
+	{
+		int x = a;
+	}*/
 }

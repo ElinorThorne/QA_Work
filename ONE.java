@@ -1,8 +1,12 @@
 
-public class ONE
+public class ONE extends ABC
 {
-	public void message()
+	public ONE(int A, int B)
 	{
-		System.out.print( "Hello? ");
+		System.out.println("1");
+	}
+	public ONE(int A)
+	{
+		System.out.println("2");
 	}
 }
