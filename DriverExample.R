@@ -1,0 +1,7 @@
+#install.packages("RODBC")
+require(RODBC)
+con<-odbcConnect("mydb")
+Df<-sqlQuery(con,"insert into asda values('Fish', 3.60, 7)")
+#Df<-sqlQuery(con,"delete from asda where product='Fish'")
+Df<-sqlQuery(con,"select * from asda")
+print(Df)
